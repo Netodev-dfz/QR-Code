@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: thistle;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container-principal{
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.qrcode{
+    width: 250px;
+    margin: 20px; 
+    background-color: #fff; 
+}
+
+.qrcode img{
+    border-radius: 30px;
+}
+
+.container-principal h1{
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.container-principal p{
+    background-color: #fff;
+    color: silver;
+    margin: 30px;
+}
